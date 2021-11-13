@@ -15,8 +15,8 @@
     create user bill_gates;
     grant accountant to bill_gates;
 --c
-    create user magjan;
-    grant boss to magjan;
+    create user erzhan;
+    grant boss to erzhan;
 --d
     revoke update on transactions from bill_gates;
     revoke select on customers from elon_musk;
