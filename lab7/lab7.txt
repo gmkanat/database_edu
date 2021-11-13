@@ -1,0 +1,16 @@
+1) 
+	Large objects (photos, videos, CAD files, etc.) are stored as
+	a large object:
+	• blob: binary large object -- object is a large collection of
+	uninterpreted binary data (whose interpretation is left to
+	an application outside of the database system)
+	• clob: character large object -- object is a large collection
+	of character data
+	 When a query returns a large object, a pointer is returned
+	rather than the large object itself
+
+2) 
+A role is a way to distinguish among various users as far
+as what these users can access/update in the database. Roles can own database objects and can assign privileges on those objects to other roles to control who has access to which objects. Privileges: select, insert, update, delete. We give roles to user with some privileges.
+
+3) Not needed
